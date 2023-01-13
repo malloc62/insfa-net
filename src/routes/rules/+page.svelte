@@ -18,7 +18,7 @@
     </p>
     <p>
         3. No excessive NSFW, suggestive remarks, or sensitive jokes, especially if done to the point that server members get uncomfortable with the situation.
-    </p.
+    </p>
     <p>
         4. Use channels for their dedicated purpose: this includes isolating spam and bot commands to only the #spam channel.
     </p> 

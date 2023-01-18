@@ -66,6 +66,12 @@
         hover='GitHub account'
         extra='noround'
     />
+    <Button 
+        href='https://twitter.com/xodrium' 
+        src='/img/twitter.svg' 
+        hover='Twitter account'
+        extra='noround'
+    />
 </div>
 
 <div class='hwrap'>

@@ -6,30 +6,27 @@
 
 <Header />
 <Section>
-    <h1>Global Discord Rules</h1>
+    <h1>Global Terms of Service</h1>
     <p>
-        1. Display common sense: do not excessively harass other members of the community, be a nusiance, or participate in immoral activity.
-    </p>
-    <p>
-        1a. Respect others regardless of race, sexual orientation, gender, or other factors. 
+        1. Basic common sense and morals apply. Do not continously harrass anyone, discriminate based on one's identity, or abuse any service owned by Malloc62, regardless of intent or context.
     </p>
     <p>
         2. Advertising is accepted, as long as it isn't the sole purpose of you joining this community.
     </p>
     <p>
-        3. No excessive NSFW, suggestive remarks, or sensitive jokes, especially if done to the point that server members get uncomfortable with the situation.
+        3. Malloc62's services are intended to be consumed by an age range between 13 and 18. As such, do not post any NSFW content or make suggestive / lewd remarks.
     </p>
     <p>
-        4. Use channels for their dedicated purpose: this includes isolating spam and bot commands to only the #spam channel.
+        4. Respect order and hierarchy: use channels and other services for their intended purposes.
     </p> 
-</Section>
-<Section>
-    <h1>Global Terms of Service</h1>
     <p>
-        1. Do not attempt to take down or hack any platforms owned under Insfa.net.
+        5. Do not witch-hunt, bring in flamewars starting outside of Malloc62's service, or otherwise stir up artifical drama.
     </p>
     <p>
-        2. Do not attempt to evade any punishments given.
+        6. Do not be a nusiance: spamming, mass-mentioning, and other obnoxious activity is prohibited (especially in surplus), regardless if the behavior in question is an infraction of Rule 1 or not.
+    </p>
+    <p>
+        7. Rules under the Global ToS are not well-defined legal documents, unless explicitly stated otherwise. Moderators reserve the final say in how a rule should be intepreted.
     </p>
 </Section>
 <Section>

@@ -8,9 +8,9 @@
 <style>
     img {
         border-radius: 100%;
-        width: 100px;
-        height: 100px;
-        margin-bottom: 20px;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
     }
 
     .noround {
@@ -23,7 +23,7 @@
         align-items: center;
         overflow-x: visible;
     
-        width: 140px;
+        width: 70px;
     }
 
     .button-hover {
@@ -45,8 +45,8 @@
     }
 
     img.small {
-        width: 50px;
-        height: 50px;
+        width: 25px;
+        height: 25px;
         margin: 0;
     }
 

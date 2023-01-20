@@ -26,10 +26,13 @@
         flex-direction: row;
     }
 
+    h3 {
+        font-size: 3vmin;
+    }
 </style>
 
 <div class='fpage'>
-<h1>Hello, I am Xodrium, malloc62, Derv, etc.</h1>
+<h3>Hello, I am Xodrium, malloc62, Derv, etc.</h3>
 <div class='hwrap'>
     <Button
         href='#' 

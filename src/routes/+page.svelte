@@ -25,7 +25,7 @@
     }
 
     h3 {
-        font-size: 3vmin;
+        font-size: 3.7vmin;
     }
 </style>
 

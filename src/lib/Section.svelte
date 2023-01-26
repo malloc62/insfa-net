@@ -7,7 +7,7 @@
     }
 
     .inner {
-        width: min(600px,100vw);
+        width: calc( min(900px,100vw) - 100px );
     }
 </style>
 

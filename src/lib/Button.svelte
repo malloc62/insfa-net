@@ -35,13 +35,13 @@
     }
 
     a:hover .button-hover {
-        color: white;
+        color: var(--dark-1);
         text-align: center;
     }
 
     a {
         text-decoration: none;
-        color: var(--light-1);
+        color: var(--dark-1);
     }
 
     img.small {

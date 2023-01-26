@@ -1,10 +1,8 @@
 <script>
     import Section from '$lib/Section.svelte';
-    import Header from '$lib/Header.svelte';
     import Code from '$lib/Code.svelte';
 </script>
 
-<Header />
 <Section>
     <h1>Global Terms of Service</h1>
     <p>

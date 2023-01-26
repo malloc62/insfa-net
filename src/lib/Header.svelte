@@ -6,7 +6,7 @@
     .hwrap {
         display: flex;
         flex-direction: row;
-        background: var(--dark-2);
+        background: var(--primary-1);
         
         width: 100%;
         padding-top: 18px;

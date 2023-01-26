@@ -1,5 +1,6 @@
 <script>
     import Button from '$lib/Button.svelte';
+    import Section from '$lib/Section.svelte'; 
 </script>
 
 <style>
@@ -8,17 +9,14 @@
         align-items: center;
         justify-content: center;
         width: 100vw;
-        height: 100vh;
-    
-        background-image: linear-gradient(var(--dark-1-transparent),var(--dark-1-transparent)), url(/img/space.svg); /*var(--light-1);*/
-        background-position: center;
-        background-size: cover;
-    
+        height: 500px;
+
+        background: var(--primary-1);
+        color: white;
+
         overflow: hidden;
     
         display: flex;
-
-        color: var(--light-1);
     }
 
     .hwrap {
@@ -32,56 +30,63 @@
 </style>
 
 <div class='fpage'>
-<h3>Hello, I am Xodrium, malloc62, Derv, etc.</h3>
-<div class='hwrap'>
-    <Button
-        href='#' 
-        src='/img/favicon.svg' 
-        hover='This site' 
-    />
-    <Button 
-        href='https://discord.insfa.net/invite' 
-        src='/img/planarcraph.svg' 
-        hover='Geopolitical Minecraft server without Towny' 
-    />
-    <Button 
-        href='https://tree.insfa.net/' 
-        src='/img/tree.svg' 
-        hover='An alternative remix tree frontend for Scratch' 
-    />
-</div>
-<div class='hwrap'>
-    <Button
-        href='https://discord.gg/JVpbAQCxpP' 
-        src='/img/discord-mark-white.svg' 
-        hover='Discord server' 
-        extra='noround'
-    />
-    <Button 
-        href='https://alldimensions.fandom.com/wiki/User:08dravennew' 
-        src='/img/Fandom_2021.svg' 
-        hover='FANDOM account' 
-        extra='noround'
-    />
-    <Button 
-        href='https://github.com/malloc62' 
-        src='/img/github-mark-white.svg' 
-        hover='GitHub account'
-        extra='noround'
-    />
-    <Button 
-        href='https://twitter.com/xodrium' 
-        src='/img/twitter.svg' 
-        hover='Twitter account'
-        extra='noround'
-    />
+<img src='/img/favicon-white.svg'>
+<h3>Experimenting in the realms of the Internet</h3>
 </div>
 
-<div class='hwrap'>
-    <Button
-        href='/rules' 
-        src='/img/favicon.svg' 
-        hover='Rules' 
-    />
-</div> 
-</div>
+<Section>
+    <h1>Who we are</h1>
+    <p>Insfa is a independent developer producing web applications of all sizes. As the head developer of Insfa, Xodrium manages the infrastructure and concepts that make it all happen.
+</Section>
+<Section>
+    <h1>Projects</h1>
+    <div class='hwrap'>
+        <Button
+            href='https://discord.insfa.net/invite'
+            src='/img/planarcraph.svg'
+            hover='Geopolitical Minecraft server without Towny'
+        />
+        <Button
+            href='https://tree.insfa.net/'
+            src='/img/tree.svg'
+            hover='An alternative remix tree frontend for Scratch'
+        />
+    </div>
+</Section>
+
+<Section>
+    <h1>Contacts</h1>
+    <div class='hwrap'>
+        <Button
+            href='https://discord.gg/JVpbAQCxpP'
+            src='/img/discord-mark-white.svg'
+            hover='Discord server'
+            extra='noround'
+        />
+        <Button
+            href='https://alldimensions.fandom.com/wiki/User:08dravennew'
+            src='/img/Fandom_2021.svg'
+            hover='FANDOM account'
+            extra='noround'
+        />
+        <Button
+            href='https://github.com/malloc62'
+            src='/img/github-mark-white.svg'
+            hover='GitHub account'
+            extra='noround'
+        />
+    </div>
+</Section>
+
+<Section>
+    <h1>Guidelines</h1>
+    <div class='hwrap'>
+        <Button
+            href='/rules'
+            src='/img/favicon.svg'
+            hover='Rules'
+        />
+    </div>
+</Section>
+        
+ 

@@ -26,6 +26,7 @@
 
     h3 {
         font-size: 3.7vmin;
+        margin-bottom: 0;
     }
 </style>
 
@@ -35,17 +36,15 @@
 </div>
 
 <Section>
-    <h1>Who we are</h1>
-    <p>Insfa is a independent developer producing web applications of all sizes. As the head developer of Insfa, Xodrium manages the infrastructure and concepts that make it all happen.
+    <h1>About Insfa</h1>
+    <p>Insfa is my personal platform for dumping my personal projects, which are usually web applications. After a long history of abandoning projects, I've decided to build up my determination, and open up a platform that's designed to last (hopefully).</p>
+    <h1>Background information</h1>
+    <p>I am a hobbyist developer. I also host Minecraft servers, develop games and make digital art in a variety of mediums. However, these aren't my main priorties, nor is it something I do very actively in practice, so expect anything I make in those fields to be subpar. </p>
+    <p>Outside of what I sometimes make, I am a autistic fourteen year old of male gender. For more information, observe my actions and words on Discord and other platforms; they speak for myself more than I ever could. </p>
 </Section>
 <Section>
     <h1>Projects</h1>
     <div class='hwrap'>
-        <Button
-            href='https://discord.insfa.net/invite'
-            src='/img/planarcraph.svg'
-            hover='Geopolitical Minecraft server without Towny'
-        />
         <Button
             href='https://tree.insfa.net/'
             src='/img/tree.svg'

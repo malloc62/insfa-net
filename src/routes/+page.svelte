@@ -50,11 +50,6 @@
             src='/img/tree.svg'
             hover='An alternative remix tree frontend for Scratch'
         />
-        <Button
-            href='/qa'
-            src='/img/favicon.svg'
-            hover='Questions and Answers'
-        />
     </div>
 </Section>
 

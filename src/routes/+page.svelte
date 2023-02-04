@@ -50,7 +50,13 @@
             src='/img/tree.svg'
             hover='An alternative remix tree frontend for Scratch'
         />
+        <Button
+            href='https://sanifae.insfa.net/'
+            src='https://sanifae.insfa.net/icon_sanifae_black.svg'
+            hover='A platform where anyone can make posts'
+        />
     </div>
+
 </Section>
 
 <Section>

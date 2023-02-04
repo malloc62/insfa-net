@@ -50,24 +50,17 @@
             src='/img/tree.svg'
             hover='An alternative remix tree frontend for Scratch'
         />
+        <Button
+            href='/qa'
+            src='/img/favicon.svg'
+            hover='Questions and Answers'
+        />
     </div>
 </Section>
 
 <Section>
-    <h1>Contacts</h1>
+    <h1>Other platforms</h1>
     <div class='hwrap'>
-        <Button
-            href='https://discord.gg/JVpbAQCxpP'
-            src='/img/discord-mark-white.svg'
-            hover='Discord server'
-            extra='noround'
-        />
-        <Button
-            href='https://alldimensions.fandom.com/wiki/User:08dravennew'
-            src='/img/Fandom_2021.svg'
-            hover='FANDOM account'
-            extra='noround'
-        />
         <Button
             href='https://github.com/malloc62'
             src='/img/github-mark-white.svg'

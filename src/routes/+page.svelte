@@ -46,7 +46,7 @@
     <h1>Projects</h1>
     <div class='hwrap'>
         <Button
-            href='https://discord.insfa.net/invite'
+            href='https://wiki.insfa.net/wiki/Main_Page'
             src='/img/planarcraph.svg'
             hover='Geopolitical Minecraft server without Towny'
         />

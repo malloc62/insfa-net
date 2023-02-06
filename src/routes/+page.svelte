@@ -46,6 +46,11 @@
     <h1>Projects</h1>
     <div class='hwrap'>
         <Button
+            href='https://discord.insfa.net/invite'
+            src='/img/planarcraph.svg'
+            hover='Geopolitical Minecraft server without Towny'
+        />
+        <Button
             href='https://tree.insfa.net/'
             src='/img/tree.svg'
             hover='An alternative remix tree frontend for Scratch'

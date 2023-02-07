@@ -86,11 +86,6 @@
             src='/img/favicon.svg'
             hover='Personal hub'
         />
-        <Button
-            href='https://scratch.mit.edu/users/5x9b/'
-            src='/img/favicon.svg'
-            hover='Scratch account'
-        />
     </div>
 </Section>
 

@@ -39,8 +39,10 @@
     <h1>About Insfa</h1>
     <p>Insfa is my personal platform for dumping my personal projects, which are usually web applications. After a long history of abandoning projects, I've decided to build up my determination, and open up a platform that's designed to last (hopefully).</p>
     <h1>Background information</h1>
-    <p>I am a hobbyist developer. I also host Minecraft servers, develop games and make digital art in a variety of mediums. However, these aren't my main priorties, nor is it something I do very actively in practice, so expect anything I make in those fields to be subpar. </p>
-    <p>Outside of what I sometimes make, I am a autistic fourteen year old of male gender. For more information, observe my actions and words on Discord and other platforms; they speak for myself more than I ever could. </p>
+    <p>I am Xodrium or Derv, a hobbyist developer. I also host Minecraft servers, develop games and make digital art in a variety of mediums. However, these aren't my main priorties, nor is it something I do very actively in practice, so expect anything I make in those fields to be subpar. </p>
+    <p>Outside of what I sometimes make, I am a normal fourteen year old. Even if I haven't accomplished much, I'm defined more by my projects than my personality as a singular person.</p>
+    <h1>Technologies</h1>
+    <p>Typically, I use SvelteKit for web development, a self-hosted Linux setup as the Insfa backend, and JavaScript or C++ for other activity (i.e. game development). For image editing or artistic works, I use Inkscape (sometimes paint.net or Blender). </p>
 </Section>
 <Section>
     <h1>Projects</h1>
@@ -65,13 +67,29 @@
 </Section>
 
 <Section>
-    <h1>Other platforms</h1>
+    <h1>Platforms</h1>
     <div class='hwrap'>
         <Button
             href='https://github.com/malloc62'
             src='/img/github-mark-white.svg'
             hover='GitHub account'
             extra='noround'
+        />
+        <Button
+            href='https://www.youtube.com/channel/UCX9pYmio1T6yqS-ZjqyNnlg'
+            src='https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg'
+            hover='YouTube account'
+            extra='noround'
+        />
+        <Button
+            href='https://discord.gg/JVpbAQCxpP'
+            src='/img/favicon.svg'
+            hover='Personal hub'
+        />
+        <Button
+            href='https://scratch.mit.edu/users/5x9b/'
+            src='/img/favicon.svg'
+            hover='Scratch account'
         />
     </div>
 </Section>

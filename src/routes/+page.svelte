@@ -1,6 +1,6 @@
 <script>
-    import Button from '$lib/Button.svelte';
-    import Section from '$lib/Section.svelte'; 
+    import Project from '$lib/Project.svelte';
+    import Section from '$lib/Section.svelte';
 </script>
 
 <style>
@@ -19,18 +19,25 @@
         display: flex;
     }
 
-    .fpage img {
-        filter: drop-shadow(0 0 8px rgba(0,0,0,0.1));
+    .fpage a {
+        color: black;
+        font-weight: bold;
     }
 
-    .hwrap {
-        display: flex;
-        flex-direction: row;
+    .fpage img {
+        filter: drop-shadow(0 0 8px rgba(0,0,0,0.1));
     }
 
     h3 {
         font-size: 3.7vmin;
         margin-bottom: 0;
+    }
+
+    .hwrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 </style>
 
@@ -38,66 +45,29 @@
 <img src='/img/favicon-white.svg'>
 <h3>Experimenting in the realms of the Internet</h3>
 </div>
-
-<Section>
-    <h1>About Insfa</h1>
-    <p>Insfa is my personal platform for dumping my personal projects, which are usually web applications. After a long history of abandoning projects, I've decided to build up my determination, and open up a platform that's designed to last (hopefully).</p>
-    <h1>Background information</h1>
-    <p>I am Xodrium or Derv, a hobbyist developer working with the full stack, in addition to web design. I also host Minecraft servers and construct digital art.</p>
-    <p>Outside of what I sometimes make, I am a normal fourteen year old. Even if I haven't accomplished much, I'm defined more by my projects than my personality as a singular person.</p>
-    <h1>Technologies</h1>
-    <p>Typically, I use SvelteKit for web development, a self-hosted Linux setup as the Insfa backend, and JavaScript or C++ for other activity (i.e. game development). For image editing or artistic works, I use Inkscape (sometimes paint.net or Blender). </p>
-</Section>
-<Section>
-    <h1>Projects</h1>
-    <div class='hwrap'>
-        <Button
-            href='https://sanifae.insfa.net/'
-            src='https://sanifae.insfa.net/icon_sanifae_black.svg'
-            hover='A basic social media platform'
-        />
-    </div>
-    <h4>Inactive, broken, or unmaintained</h4>
-    <div class='hwrap'>
-        <Button
-            href='https://wiki.insfa.net/wiki/Main_Page'
-            src='/img/planarcraph.svg'
-            hover='Geopolitical Minecraft server without Towny'
-        />
-        <Button
-            href='https://tree.insfa.net/'
-            src='/img/tree.svg'
-            hover='An alternative remix tree frontend for Scratch'
-        />
-    </div>
-</Section>
-
-<Section>
-    <h1>Platforms</h1>
-    <div class='hwrap'>
-        <Button
-            href='https://github.com/malloc62'
-            src='/img/github-mark-white.svg'
-            hover='GitHub account'
-            extra='noround'
-        />
-        <Button
-            href='https://discord.gg/JVpbAQCxpP'
-            src='/img/favicon.svg'
-            hover='Personal hub'
-        />
-    </div>
-</Section>
-
-<Section>
-    <h1>Guidelines</h1>
-    <div class='hwrap'>
-        <Button
-            href='/rules'
-            src='/img/favicon.svg'
-            hover='Rules'
-        />
-    </div>
-</Section>
         
- 
+<Section>
+    <div class='hwrap'>
+        <Project name='About' url='/about' img='/img/favicon.svg'>
+            <p>A summary about the backend and developer of Insfa.</p>
+        </Project>
+        <Project name='Guidelines' url='/rules'>
+            <p>Guidelines for any user using the services on Insfa. Important read!</p>
+        </Project>
+        <Project name='Sanifae' url='https://sanifae.insfa.net/' img='https://sanifae.insfa.net/icon_sanifae_black.svg'>
+            <p>A social media oriented around short posts. Currently in early alpha.</p>
+        </Project>
+        <Project name='GitHub' url='https://wiki.insfa.net/wiki/Main_Page' img='/img/github-mark-white.svg'>
+            <p>GitHub repository containing the majority of modern Insfa projects.</p>
+        </Project>
+        <Project name='Discord' url='https://discord.com/invite/JVpbAQCxpP' img='/img/discord-mark-white.svg'>
+            <p>Communications server on Discord for Insfa.</p>
+        </Project>
+        <Project name='PlanarCraph' url='https://wiki.insfa.net/wiki/Main_Page' img='/img/planarcraph.svg'>
+            <p>A vanilla Minecraft Server with a civilization focus.</p>
+        </Project>
+        <Project name='NeoScratchTree' url='https://tree.insfa.net/' img='/img/tree.svg'>
+            <p>An alternative tree frontend for Scratch. Redesign is planned but not a priority.</p>
+        </Project>
+    </div>
+</Section>

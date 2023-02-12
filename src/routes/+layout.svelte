@@ -7,10 +7,10 @@
         --light-1: rgb(255,255,255);
 
         --dark-1: rgb(0,0,0);
-        --dark-2: rgb(20,25,35);
+        --dark-2: #2b2f36;
         --dark-3: rgb(125,130,135);
 
-        --primary-1: rgb(219, 219, 219);
+        --primary-1: rgb(221, 221, 221);
 
         font-family: 'Open Sans';
         font-size: 1.0rem;

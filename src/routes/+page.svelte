@@ -57,7 +57,7 @@
         <Project name='Sanifae' url='https://sanifae.insfa.net/' img='https://sanifae.insfa.net/icon_sanifae_black.svg'>
             <p>A social media oriented around short posts. Currently in early alpha.</p>
         </Project>
-        <Project name='GitHub' url='https://wiki.insfa.net/wiki/Main_Page' img='/img/github-mark-white.svg'>
+        <Project name='GitHub' url='https://github.com/malloc62' img='/img/github-mark-white.svg'>
             <p>GitHub repository containing the majority of modern Insfa projects.</p>
         </Project>
         <Project name='Discord' url='https://discord.com/invite/JVpbAQCxpP' img='/img/discord-mark-white.svg'>

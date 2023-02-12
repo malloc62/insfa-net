@@ -8,8 +8,9 @@
 
         --dark-1: rgb(0,0,0);
         --dark-2: rgb(20,25,35);
+        --dark-3: rgb(125,130,135);
 
-        --primary-1: rgb(52 54 60);
+        --primary-1: rgb(219, 219, 219);
 
         font-family: 'Open Sans';
         font-size: 1.0rem;

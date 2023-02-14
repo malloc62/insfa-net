@@ -57,6 +57,9 @@
         <Project name='Sanifae' url='https://sanifae.insfa.net/' img='https://sanifae.insfa.net/icon_sanifae_black.svg'>
             <p>A social media oriented around short posts. Currently in early alpha.</p>
         </Project>
+        <Project name='OC Rater' url='https://rate.insfa.net/' img='https://rate.insfa.net/YourOC.svg'>
+            <p>I will rate any OCs you upload to this site. OCs do not show up until rated for most users.</p>
+        </Project>
         <Project name='GitHub' url='https://github.com/malloc62' img='/img/github-mark-white.svg'>
             <p>GitHub repository containing the majority of modern Insfa projects.</p>
         </Project>

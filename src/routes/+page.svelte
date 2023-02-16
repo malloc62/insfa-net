@@ -33,6 +33,11 @@
         margin-bottom: 0;
     }
 
+    h2 {
+        text-align: center;
+        width: 100%;
+    }
+
     .hwrap {
         display: flex;
         flex-direction: row;
@@ -47,10 +52,26 @@
 </div>
         
 <Section>
+    <h2>Communications</h2>
     <div class='hwrap'>
         <Project name='About' url='/about' img='/img/favicon.svg'>
             <p>A summary about the backend and developer of Insfa.</p>
         </Project>
+        <Project name='GitHub' url='https://github.com/malloc62' img='/img/github-mark-white.svg'>
+            <p>GitHub repository containing the majority of modern Insfa projects.</p>
+        </Project>
+        <Project name='Hub' url='https://discord.com/invite/JVpbAQCxpP' img='/img/discord-mark-white.svg'>
+            <p>Communications server for Insfa.</p>
+        </Project>
+        <Project name='FANDOM' url='https://alldimensions.fandom.com/wiki/User:08dravennew' img='/img/Fandom_2021.svg'>
+            <p>Account which I use for editing FANDOM, a host of user-operated wikis.</p>
+        </Project>
+        <Project name='Scratch' url='https://scratch.mit.edu/users/malloc62/' img='https://scratch.mit.edu/favicon.ico'>
+            <p>A block language normally designed for children, which I mostly use for the community and API experiments.</p>
+        </Project>
+    </div>
+    <h2>Projects</h2>
+    <div class='hwrap'>
         <Project name='Guidelines' url='/rules'>
             <p>Guidelines for any user using the services on Insfa. Important read!</p>
         </Project>
@@ -59,12 +80,6 @@
         </Project>
         <Project name='OC Rater' url='https://rate.insfa.net/' img='https://rate.insfa.net/YourOC.svg'>
             <p>I will rate any OCs you upload to this site. OCs do not show up until rated for most users.</p>
-        </Project>
-        <Project name='GitHub' url='https://github.com/malloc62' img='/img/github-mark-white.svg'>
-            <p>GitHub repository containing the majority of modern Insfa projects.</p>
-        </Project>
-        <Project name='Discord' url='https://discord.com/invite/JVpbAQCxpP' img='/img/discord-mark-white.svg'>
-            <p>Communications server on Discord for Insfa.</p>
         </Project>
         <Project name='PlanarCraph' url='https://wiki.insfa.net/wiki/Main_Page' img='/img/planarcraph.svg'>
             <p>A vanilla Minecraft Server with a civilization focus.</p>
